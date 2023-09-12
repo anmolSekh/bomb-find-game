@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cloud"
+    tools:context=".TheHelp">
+
+    <TextView
+        android:id="@+id/aboutMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Me:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="15dp" />
+
+    <TextView
+        android:id="@+id/aboutMeStuff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: Anmol S. Sekhon\nCourse: CMPT225\nhttps://opencoursehub.cs.sfu.ca/jackt/grav-cms/cmpt276-2/home"
+        app:layout_constraintTop_toBottomOf="@id/aboutMe"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <TextView
+        android:id="@+id/gameInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How To Play:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/aboutMeStuff"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <TextView
+        android:id="@+id/gameInfoStuff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search_for_a_selectable_number_of_hidden_bombs_in_the_board_nyou_can_use_scans_to_see_how_many_bombs_are_remaining_in_each_row_and_column_nupon_finishing_save_the_match_s_used_scans_in_your_total_score"
+        app:layout_constraintTop_toBottomOf="@id/gameInfo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <TextView
+        android:id="@+id/resourceLinks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resource_citations"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/gameInfoStuff"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <TextView
+        android:id="@+id/citationsList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/https_webiconspng_com_icon_36839_nhttps_www_clipartkey_com_view_miobxr_trophy_award_clip_transparent_background_trophy_png"
+        app:layout_constraintTop_toBottomOf="@id/resourceLinks"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="274dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

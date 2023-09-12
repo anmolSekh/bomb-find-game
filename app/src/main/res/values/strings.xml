@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AndroidGameApp</string>
+    <string name="of_scans_used"># of Scans Used:</string>
+    <string name="game_board_size">Game Board Size: </string>
+    <string name="total_number_of_bombs">Total Number of Bombs: </string>
+    <string name="of_bombs_found"># of Bombs Found: </string>
+    <string name="total_bombs">Total Bombs: </string>
+    <string name="total_games_played">Total Games Played:</string>
+    <string name="current_configuration">Current Configuration\n</string>
+    <string name="best_score">Best Score:</string>
+    <string name="reset_total_games">Reset Total Games</string>
+    <string name="reset_best_score">Reset Best Score</string>
+    <string name="resource_citations">Resource Citations</string>
+    <string name="https_webiconspng_com_icon_36839_nhttps_www_clipartkey_com_view_miobxr_trophy_award_clip_transparent_background_trophy_png">https://webiconspng.com/icon/36839\nhttps://www.clipartkey.com/view/miobxR_trophy-award-clip-transparent-background-trophy-png\nhttps://www.stickpng.com/img/nature/clouds/small-white-cloud/</string>
+    <string name="search_for_a_selectable_number_of_hidden_bombs_in_the_board_nyou_can_use_scans_to_see_how_many_bombs_are_remaining_in_each_row_and_column_nupon_finishing_save_the_match_s_used_scans_in_your_total_score">Search for a selectable number of hidden bombs in the board.\nYou can use scans to see how many bombs are remaining in each row and column\nA lower #of scans means a better score.</string>
+</resources>
